@@ -1,0 +1,15 @@
+Model,Precision,Recall,F1 Score,M.A F1 Score,Identifier
+Random Forest Classifier (IX),0.909,0.048,0.757,0.974,1
+Random Forest Classifier (lx + agg),0.981,0.651,0.782,0.977
+Logistic Regression (IX),0.515,0.046,0.573,0.939
+Logistic Regression (lx + agg),0.456,0.630,0.529,0.929
+MLP (IX),0.856,0.595,0.702,0.968,5
+MLP (lx + agg),0.843,0.612,0.709,0.968,8
+KNeighborsClassifier (IX),0.762,0.629,0.689,0.984,7
+KNeighborsClassifier (lx + agg),0.730,0.576,0.644,0.960
+SVC (IX),0.842,0.634,0.703,0.968
+SVC (lx + agg),0.862,0.588,0.699,0.968
+Decision Tree Classifier (IX),0.986,0.573,0.725,0.973,3A
+Decision Tree Classifier (lx + agg),0.986,0.573,0.725,0.973,52
+AdaBoost Classifier (IX),0.807,0.615,0.699,0.967,53
+AdaBoost Classifier (lx + agg),0.945,0.567,0.708,0.971
